@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
+import Reproductores from '../views/Reproductores.vue'
+import Control from '../views/Control.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +10,12 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: Reproductores
+  },
+  {
+    path: '/control',
+    name: 'control',
+    component: Control
   },
   {
     path: '/about',
