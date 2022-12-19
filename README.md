@@ -1,4 +1,6 @@
-# app_reproductor
+# App Reproductos de Videos 4F
+
+Aplicación utilizada durante el simulacro de terremoto 4F 2020.  La aplicación permite crear un grid que encaja en las pantallas del C4.  En cada pantalla es posible enviar videos mediante el uso de Socket.IO
 
 ## Project setup
 ```
